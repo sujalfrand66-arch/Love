@@ -1,0 +1,70 @@
+body{
+margin:0;
+font-family:cursive;
+background:#f7b9c4;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+overflow:hidden;
+}
+
+.page{display:none;position:absolute;width:100%;height:100%;justify-content:center;align-items:center;}
+.active{display:flex;}
+
+.card{
+background:#ffc9d6;
+padding:25px;
+border-radius:20px;
+box-shadow:0 10px 40px rgba(0,0,0,.2);
+text-align:center;
+max-width:380px;
+}
+
+.large{max-width:600px;}
+
+.gif{width:120px;margin-bottom:10px;}
+
+.buttons button{
+padding:10px 25px;
+border:none;
+border-radius:25px;
+margin:10px;
+font-size:18px;
+cursor:pointer;
+}
+
+#yes{background:red;color:white;}
+#no{background:#2563eb;color:white;position:absolute;}
+
+.giftbox{display:flex;gap:20px;justify-content:center;margin:20px;}
+.gift{background:white;padding:10px;border-radius:15px;}
+.gift img{width:70px;}
+
+.quizbtn{display:block;width:200px;margin:8px auto;padding:10px;border-radius:20px;border:none;background:white;}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:10px;
+}
+
+.polaroid{
+background:white;
+padding:8px;
+border-radius:8px;
+transform:rotate(-3deg);
+}
+
+.polaroid img{width:100%;border-radius:5px;}
+.polaroid span{font-size:14px;color:#444;}
+
+.next{
+margin-top:15px;
+padding:10px 25px;
+border:none;
+border-radius:20px;
+background:red;
+color:white;
+cursor:pointer;
+}
